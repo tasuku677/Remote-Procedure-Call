@@ -20,21 +20,15 @@ This project provides a simple Remote Procedure Call (RPC) system using UNIX soc
 
 ### Server Setup and Usage
 
-    Define Functions
-    Modify or add functions in server/functions.py as needed. Ensure each function corresponds to a name used in the function_hash dictionary in server.py.
+- Define Functions
+Modify or add functions in server/functions.py as needed. Ensure each function corresponds to a name used in the function_hash dictionary in server.py.
 
-    Start the Server
-    Start the server with the following command:
-    
+- Start the server with the following command:  
 ```
     python server.py
 ```
 
-    The server will listen for connections on the UNIX socket file ./tmp/socket_file.
-
-    Server Code Explanation
-        function_hash: Maps function names to their respective implementations in server/functions.py.
-        Connection Handling: The server listens for incoming connections, decodes JSON requests, validates function names and parameters, executes the function, and sends the response back.
+The server will listen for connections on the UNIX socket file ./tmp/socket_file.
 
 ## JSON Request Format
 
