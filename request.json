@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "method": "floor",
+        "params": [42.23],
+        "params_types": ["float"]
+    },
+    {
+        "id": 2,
+        "method": "nroot",
+        "params": [4, 6],
+        "params_types": ["int", "int"]
+    },
+    {
+        "id": 3,
+        "method": "reverse",
+        "params": ["hello world"],
+        "params_types": ["string"]
+    },
+    {
+        "id": 4,
+        "method": "sort",
+        "params": ["hello world"],
+        "params_types": ["string"]
+    }
+]
