@@ -3,8 +3,8 @@
 This project provides a simple Remote Procedure Call (RPC) system using UNIX sockets to facilitate communication between a Node.js client and a Python server. The client sends JSON-formatted requests, specifying a function and parameters, and the server dynamically executes the requested function, returning results to the client.
 ## Overview
 
-    Server: A Python-based server that listens for incoming requests on a UNIX socket, parses the requested function, executes it, and sends the response.
-    Client: A Node.js client that reads requests from a JSON file (request.json), connects to the server, sends each request, and logs the server’s response.
+- Server: A Python-based server that listens for incoming requests on a UNIX socket, parses the requested function, executes it, and sends the response.
+- Client: A Node.js client that reads requests from a JSON file (request.json), connects to the server, sends each request, and logs the server’s response.
 
 ## Prerequisites
 - Python 3.x (for the server)
